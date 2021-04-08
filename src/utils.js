@@ -1,3 +1,3 @@
 export function getApi() {
-	return 'https://calm-dawn-25588.herokuapp.com';
+	return 'https://stark-beach-84164.herokuapp.com';
 }
