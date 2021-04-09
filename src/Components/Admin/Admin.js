@@ -47,7 +47,9 @@ const Admin = () => {
 	return (
 		<div className="container">
 			<div className="btn-group">
-				<Link to="/manage" className="btn btn-primary">Edit </Link>
+				<Link to="/manage" className="btn btn-primary">Manage </Link>
+				<span style={{paddingLeft: "10px"}}></span>
+				<Link to="/edit" className="btn btn-primary">Edit </Link>
 			</div>
 			<hr />
 			<h3>Add a new Product here</h3>
