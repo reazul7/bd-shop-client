@@ -1,5 +1,9 @@
 import React, { createContext, useState } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route
+  } from "react-router-dom";
 import Orders from './Components/Orders/Orders';
 import Admin from './Components/Admin/Admin';
 import Home from './Components/Home/Home';
@@ -9,6 +13,7 @@ import Login from './Components/Login/Login';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import Manage from './Components/Manage/Manage';
 import Checkout from './Components/Checkout/Checkout';
+import './App.css';
 
 export const UserContext = createContext();
 export const BuyContext = createContext();

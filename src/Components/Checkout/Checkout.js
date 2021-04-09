@@ -17,7 +17,6 @@ const Checkout = () => {
 		const orderDetails = {
 			name: checkout.name,
 			price: checkout.price,
-			origin: checkout.origin,
 			time: new Date()
 		}
 		fetch( `${ url }/addOrder`, {
@@ -44,7 +43,6 @@ const Checkout = () => {
 				<div className="col-md-6">
 					<p>Name: { checkout.name }</p>
 					<p>Price: { checkout.price } BDT</p>
-					<p>Origin: { checkout.origin }</p>
 					<button className="btn btn-success" onClick={ handleCheckout }>Checkout</button>
 				</div>
 			</div>

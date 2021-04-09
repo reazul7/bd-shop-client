@@ -33,7 +33,6 @@ const Manage = () => {
 				<thead>
 					<tr>
 						<th scope="col">Name</th>
-						<th scope="col">Origin</th>
 						<th scope="col">Price</th>
 						<th scope="col">Action</th>
 					</tr>
@@ -42,7 +41,6 @@ const Manage = () => {
 					{ allProducts.map( product =>
 						<tr key={ product._id }>
 							<td>{ product.name }</td>
-							<td>{ product.origin }</td>
 							<td>{ product.price }</td>
 							<td>
 								<div className="btn-group">

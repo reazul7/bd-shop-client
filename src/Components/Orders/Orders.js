@@ -27,7 +27,6 @@ const Orders = () => {
 						<thead>
 							<tr>
 								<th scope="col">Name</th>
-								<th scope="col">Origin</th>
 								<th scope="col">Price</th>
 								<th scope="col">Time of Order</th>
 							</tr>
@@ -36,7 +35,6 @@ const Orders = () => {
 							{ order && order.map( orderItem => (
 								<tr key={ orderItem._id }>
 									<td>{ orderItem.name }</td>
-									<td>{ orderItem.origin }</td>
 									<td>{ orderItem.price }</td>
 									<td>{ orderItem.time }</td>
 								</tr>
