@@ -1,6 +1,6 @@
 <h2 align="center">
   BD Shop<br/>
-  <a href="https://bd-shop-3f040.web.app" target="_blank">BD Shop</a>
+  <a href="https://bd-shop-3f040.web.app" target="_blank">BD Shop Live Site</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
